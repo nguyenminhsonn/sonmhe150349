@@ -1,0 +1,32 @@
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url(Spider_Man_spider-1504259.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(1, 1, 24);
+}
+
+.grid {
+    width: 1600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
